@@ -3,7 +3,7 @@ body {
 }
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0 auto;
     padding: 0;
 }
@@ -14,11 +14,12 @@ body {
     align-items: center;
     justify-content: center;
     /* width: 90rem; */
-    height: 50vh;
+    height: 75vh;
     row-gap: 1.4rem;
 }
 
 h1 {
+    font-family: 'Alegreya Sans', sans-serif;
     color: rgb(2, 81, 87);
     font-size: 3.2rem;
     text-align: center;
@@ -37,43 +38,43 @@ button {
 
 form {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0;
-    width: 45rem;
-    gap: 0.8rem;
     text-align: center;
+    padding: 0 2.4rem;
 }
 
 input {
     text-align: center;
     font-size: 1.2rem;
-    border-radius: 25px;
-    border-color: white;
-    padding: 0.5rem 4.2rem;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    border-color: #fff;
+    padding: 0.6rem 4.2rem;
+    box-shadow: 0px 0px 5px rgba(2, 81, 87, 0.3) inset;
     background-color: rgba(255, 111, 0, 0.034);
 }
 
 input::placeholder {
-    color: rgb(2, 81, 87);
+    color: rgb(171, 171, 171);
     font-weight: 400;
 }
 
 button {
     font-size: 1rem;
-    padding: 1.2rem 2.4rem;
+    padding: 0.71rem 2.4rem;
     border: none;
-    box-shadow: 0 5px 5px rgba(2, 81, 87, 0.3);
-    border-radius: 25px;
+    color: white;
+    background-color: rgb(2, 81, 87);
+    border-radius: 0px 25px 25px 0px;
 }
 
 button:hover {
-
-    box-shadow: 0 10px 5px rgba(2, 81, 87, 0.1);
-    background-color: rgb(2, 81, 87);
-    color: white;
-    font-weight: 700;
+    background-color: rgb(74, 135, 139);
+    /* box-shadow: 0 10px 5px rgba(2, 81, 87, 0.1); */
 }
 
 img {
