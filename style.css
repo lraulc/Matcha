@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(235, 231, 228);
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: rgb(2, 81, 87);
+    text-align: center;
+}
+
+p {
+    color: rgb(70, 72, 76);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+img {
+    width: 35%;
+    
+}
