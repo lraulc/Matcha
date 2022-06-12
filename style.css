@@ -8,13 +8,52 @@ body {
     padding: 0;
 }
 
+.logo {
+    width: 10%;
+    height: auto;
+}
+
+.logo.matcha {
+    width: 5%;
+}
+
+.nav-bar {
+    display: flex;
+    margin-top: 1.4rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    gap: 3.2rem;
+    list-style: none;
+}
+
+.header-link,
+.header-link:active,
+.header-link:visited {
+    text-decoration: none;
+    color: rgb(74, 135, 139);
+}
+
+.header-link:hover {
+    color: rgb(109, 167, 125);
+}
+
+.logo.matcha {
+    margin: 0;
+    padding: 0;
+}
+
 .hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* width: 90rem; */
-    height: 75vh;
+    height: 40rem;
     row-gap: 1.4rem;
 }
 
@@ -77,13 +116,8 @@ button:hover {
     /* box-shadow: 0 10px 5px rgba(2, 81, 87, 0.1); */
 }
 
-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: auto;
-    width: 100%;
-    max-width: 15%;
+
+.logo.capterra {
+    display: block;
+    width: 25%;
 }
