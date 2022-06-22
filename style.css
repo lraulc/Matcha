@@ -8,6 +8,14 @@ body {
     padding: 0;
 }
 
+label {
+    color: rgba(66, 66, 66, 0.6);
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
 .fixed-header {
     position: fixed;
     height: 8rem;
@@ -227,9 +235,98 @@ button:hover {
     padding: 0;
 }
 
-.second-section {
+.features-section {
+    margin-top: 4.2rem;
+    padding: 4.2rem;
+    background-color: rgb(2, 81, 87);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+}
+
+.feature-card {
     display: flex;
-    margin-top: 2.4rem;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    border-radius: 15px;
+    height: 25rem;
+    background-color: rgb(228, 228, 228);
+}
+
+.feature-image-container {
+    display: block;
+    margin-right: 2.4rem;
+    width: 45%;
+    height: 75%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feature-image-container.first {
+    background-position: -250px 0px;
+    background-image: url("/src/publishExample.jpg");
+}
+
+.feature-image-container.second {
+    background-position: -150px 0px;
+    background-image: url("/src/traffic.jpg");
+}
+
+.feature-image-container.third {
+    /* background-position: -250px 0px; */
+    background-image: url("/src/capture.jpg");
+}
+
+.feature-image-container.fourth {
+    background-size: 650px 456px;
+    background-position: -80px -35px;
+    background-image: url("/src/analytics.jpg");
+}
+
+.feature-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 1.4rem;
+    margin: 0 0 0 2.4rem;
+    padding: 0;
+}
+
+.feature-title {
+    margin: 0;
+    padding: 0;
+}
+
+.feature-card-parragraph {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-card-link {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(106, 191, 74);
+}
+
+.material-symbols-sharp {
+    margin: 0;
+    padding: 0;
+    color: rgb(106, 191, 74);
+    font-size: 4.8rem !important;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 200,
+        'opsz' 24,
 }
