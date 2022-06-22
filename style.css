@@ -6,7 +6,9 @@
 
 
 body {
-    background-color: rgb(249, 246, 244);
+    /* background-color: rgb(249, 246, 244); */
+    background: linear-gradient(rgb(249, 246, 244), rgb(195, 255, 171));
+    height: auto;
 }
 
 * {
@@ -34,6 +36,7 @@ label {
 .first-section-container {
     margin: 0;
     padding: 0;
+    padding-bottom: 4.2rem;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -247,7 +250,6 @@ button:hover {
 }
 
 .features-section {
-    margin-top: 4.2rem;
     padding: 4.2rem 14.2rem 4.2rem 14.2rem;
     background-color: rgb(2, 81, 87);
     display: grid;
