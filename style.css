@@ -82,6 +82,10 @@ label {
     text-decoration: none;
 }
 
+.btn.btn.free-trial:hover {
+    background-color: #2a4e1d;
+}
+
 ul {
     text-align: right;
     display: flex;
@@ -258,7 +262,7 @@ button:hover {
     align-items: center;
     text-align: left;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 9px;
     height: 18rem;
     gap: 2.4rem;
     background-color: rgb(228, 228, 228);
