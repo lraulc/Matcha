@@ -312,7 +312,7 @@ button:hover {
     align-items: flex-start;
     justify-content: left;
     gap: 1.4rem;
-    margin: 1.2rem;
+    margin: 0 0 0 2.4rem;
     padding: 0;
 }
 
