@@ -10,22 +10,16 @@ body {
 
 .fixed-header {
     position: fixed;
-    height: 9rem;
-    margin-bottom: 4.2rem;
-    background-color: rgb(255, 255, 255);
+    height: 8rem;
+    background-color: rgba(0, 0, 0, 0.02);
+    backdrop-filter: saturate(185%) blur(10px);
     box-shadow: 0 5px 10px rgba(2, 81, 87, 0.1);
-    /* background-image: radial-gradient(rgba(161, 255, 154, 0.519) 2px, rgba(255, 255, 255, 0.1) 2px); */
-    /* background-size: 40px 40px; */
 }
 
-.first-section {
+.first-section-container {
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.3);
-    /* opacity: 0.2; */
-    background-image: radial-gradient(rgba(161, 255, 154, 0.519) 2px, rgba(255, 255, 255, 0.1) 2px);
-    background-size: 40px 40px;
-    z-index: -1;
 }
 
 .logo {
@@ -34,7 +28,20 @@ body {
 }
 
 .logo.matcha {
-    width: 5%;
+    width: 30%;
+}
+
+.matcha-logo-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 10%;
+}
+
+.matcha-logo-text {
+    margin: 0;
+    width: 9rem;
 }
 
 .nav-bar {
@@ -47,9 +54,9 @@ body {
 
 .btn {
     padding: 1.2rem 2.4rem;
-    /* margin-right: 2.4rem; */
-    border-radius: 20px;
-    background-color: rgb(2, 81, 87);
+    border-radius: 10px;
+    background-color: rgb(106, 191, 74);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     color: white;
 }
 
@@ -67,7 +74,7 @@ ul {
     justify-content: flex-end;
     align-content: center;
     margin: 0;
-    margin-left: 5.2rem;
+    margin-right: 8.2rem;
     padding: 0;
     gap: 3.2rem;
     list-style: none;
@@ -82,11 +89,11 @@ ul {
 .header-link:visited,
 .sign-in {
     text-decoration: none;
-    color: rgb(74, 135, 139);
+    color: rgb(46, 90, 29);
 }
 
 .header-link:hover {
-    color: rgb(109, 167, 125);
+    color: rgb(106, 191, 74);
 }
 
 .logo.matcha {
@@ -94,16 +101,12 @@ ul {
     padding: 0;
 }
 
-.main-title {
-    margin-top: 9rem;
-}
-
 .hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 92rem;
+    padding-top: 15rem;
     row-gap: 1.4rem;
 }
 
@@ -168,7 +171,7 @@ button:hover {
 
 .logo.capterra {
     display: block;
-    width: 25%;
+    width: 15%;
 }
 
 .group-image {
@@ -179,12 +182,54 @@ button:hover {
 
 }
 
-.second-section {
+.side-by-side-container {
+    margin-top: 4.2rem;
+    width: 85rem;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
+    gap: 8.2rem;
+}
+
+.side-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: left;
+    margin: 0;
+    flex: 1 1 auto;
+    row-gap: 1.4rem;
+}
+
+.side-text-header {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(2, 81, 87);
+    font-size: 2.6rem;
+    text-align: center;
+    text-align: left;
+    margin: 0;
+}
+
+.side-text-parragraph {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
 .youtube-video {
-    border-radius: 25px;
+    flex: 2 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(2, 81, 87, 0.3);
+}
+
+.mid-form {
+    padding: 0;
+}
+
+.second-section {
+    display: flex;
+    margin-top: 2.4rem;
+    align-content: center;
+    justify-content: center;
 }
