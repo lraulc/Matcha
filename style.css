@@ -114,7 +114,8 @@ ul {
     color: rgb(46, 90, 29);
 }
 
-.header-link:hover {
+.header-link:hover,
+.sign-in:hover {
     color: rgb(106, 191, 74);
 }
 
