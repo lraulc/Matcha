@@ -7,7 +7,7 @@
 
 body {
     /* background-color: rgb(249, 246, 244); */
-    background: linear-gradient(rgb(249, 246, 244), rgb(195, 255, 171));
+    background: linear-gradient(rgb(249, 246, 244), rgb(233, 255, 225));
     height: auto;
 }
 
@@ -254,7 +254,7 @@ button:hover {
     padding: 4.2rem 14.2rem 4.2rem 14.2rem;
     background-color: rgb(2, 81, 87);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(440px, 1fr));
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 28px;
     grid-row-gap: 28px;
@@ -269,6 +269,7 @@ button:hover {
     height: 18rem;
     gap: 2.4rem;
     background-color: rgb(228, 228, 228);
+    box-shadow: 0 -5px 0 rgb(17, 56, 59)inset;
     overflow: hidden;
     object-fit: cover;
 
@@ -282,6 +283,7 @@ button:hover {
     /* border-radius: 5px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-size: cover;
+    box-shadow: 0 -5px 0 rgb(17, 56, 59)inset;
     background-repeat: no-repeat;
     background-position: center;
 }
