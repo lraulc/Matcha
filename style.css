@@ -1,3 +1,10 @@
+/* --pistachio: #8FC27Aff;
+--jet: #322E2Aff;
+--middle-green-yellow: #B6CF70ff;
+--sap-green: #657F32ff; */
+
+
+
 body {
     background-color: rgb(249, 246, 244);
 }
@@ -19,7 +26,7 @@ label {
 .fixed-header {
     position: fixed;
     height: 8rem;
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(17, 56, 59, 0.05);
     backdrop-filter: saturate(185%) blur(10px);
     box-shadow: 0 5px 10px rgba(2, 81, 87, 0.1);
 }
@@ -63,7 +70,7 @@ label {
 .btn {
     padding: 1.2rem 2.4rem;
     border-radius: 10px;
-    background-color: rgb(106, 191, 74);
+    background-color: #6abf4a;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     color: white;
 }
@@ -119,8 +126,8 @@ ul {
 }
 
 h1 {
-    font-family: 'Alegreya Sans', sans-serif;
-    color: rgb(2, 81, 87);
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(17, 56, 59);
     font-size: 3.2rem;
     text-align: center;
 }
@@ -153,7 +160,7 @@ input {
     border: none;
     border-color: #fff;
     padding: 0.6rem 4.2rem;
-    box-shadow: 0px 0px 5px rgba(2, 81, 87, 0.3) inset;
+    box-shadow: 0px 0px 5px rgb(17, 56, 59) inset;
     background-color: rgba(255, 111, 0, 0.034);
 }
 
@@ -167,12 +174,12 @@ button {
     padding: 0.71rem 2.4rem;
     border: none;
     color: white;
-    background-color: rgb(2, 81, 87);
+    background-color: rgb(17, 56, 59);
     border-radius: 0px 25px 25px 0px;
 }
 
 button:hover {
-    background-color: rgb(74, 135, 139);
+    background-color: rgb(46, 90, 29);
     /* box-shadow: 0 10px 5px rgba(2, 81, 87, 0.1); */
 }
 
@@ -185,7 +192,7 @@ button:hover {
 .group-image {
     text-align: center;
     margin-top: 4.2rem;
-    width: 90%;
+    width: 60%;
     height: auto;
 
 }
@@ -210,8 +217,8 @@ button:hover {
 }
 
 .side-text-header {
-    font-family: 'Alegreya Sans', sans-serif;
-    color: rgb(2, 81, 87);
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(17, 56, 59);
     font-size: 2.6rem;
     text-align: center;
     text-align: left;
@@ -228,7 +235,7 @@ button:hover {
 .youtube-video {
     flex: 2 0 auto;
     border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(2, 81, 87, 0.3);
+    box-shadow: 0 5px 10px rgba(70, 92, 44, 0.2);
 }
 
 .mid-form {
@@ -237,7 +244,7 @@ button:hover {
 
 .features-section {
     margin-top: 4.2rem;
-    padding: 4.2rem;
+    padding: 4.2rem 14.2rem 4.2rem 14.2rem;
     background-color: rgb(2, 81, 87);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -252,16 +259,20 @@ button:hover {
     text-align: left;
     width: 100%;
     border-radius: 15px;
-    height: 25rem;
+    height: 18rem;
+    gap: 2.4rem;
     background-color: rgb(228, 228, 228);
+    overflow: hidden;
+    object-fit: cover;
+
 }
 
 .feature-image-container {
     display: block;
-    margin-right: 2.4rem;
-    width: 45%;
-    height: 75%;
-    border-radius: 5px;
+    /* margin-right: 2.4rem; */
+    width: 80%;
+    height: 100%;
+    /* border-radius: 5px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-size: cover;
     background-repeat: no-repeat;
@@ -269,12 +280,12 @@ button:hover {
 }
 
 .feature-image-container.first {
-    background-position: -250px 0px;
+    /* background-position: -250px 0px; */
     background-image: url("/src/publishExample.jpg");
 }
 
 .feature-image-container.second {
-    background-position: -150px 0px;
+    /* background-position: -150px 0px; */
     background-image: url("/src/traffic.jpg");
 }
 
@@ -285,7 +296,7 @@ button:hover {
 
 .feature-image-container.fourth {
     background-size: 650px 456px;
-    background-position: -80px -35px;
+    background-position: -80px -75px;
     background-image: url("/src/analytics.jpg");
 }
 
@@ -316,14 +327,14 @@ button:hover {
     padding: 0;
     text-align: left;
     text-decoration: none;
-    color: rgb(106, 191, 74);
+    color: rgb(17, 56, 59);
 }
 
 .material-symbols-sharp {
     margin: 0;
     padding: 0;
-    color: rgb(106, 191, 74);
-    font-size: 4.8rem !important;
+    color: rgb(17, 56, 59);
+    font-size: 1.8rem !important;
     font-variation-settings:
         'FILL' 0,
         'wght' 200,
