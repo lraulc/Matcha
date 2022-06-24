@@ -157,6 +157,7 @@ h1 {
     color: rgb(17, 56, 59);
     font-size: 3.2rem;
     text-align: center;
+    font-weight: bold;
 }
 
 p {
@@ -385,9 +386,10 @@ input::placeholder {
         padding: 0;
     }
 
+    /* 
     .nav-bar {
         display: none;
-    }
+    } */
 
     header {
         display: block;
@@ -425,6 +427,7 @@ input::placeholder {
 
     .main-title {
         font-size: 1.8rem;
+        font-weight: bold;
     }
 
     .group-image {
@@ -466,7 +469,7 @@ input::placeholder {
     }
 
     .feature-card {
-        height: 400px;
+        height: 390px;
         width: 70%;
         flex-direction: column-reverse;
         gap: 1.4rem;
